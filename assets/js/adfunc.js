@@ -11,7 +11,7 @@ $(document).ready(function () {
     sessionStorage.removeItem("loggedIn"); // Remove the logged-in status
 
     // Optionally, you can also redirect to the login page after logout
-    window.location.href = "/index.html"; // Replace with the correct login page URL
+    window.location.href = "index.html"; // Replace with the correct login page URL
   });
 });
 
